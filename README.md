@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# carbon_calculator
-=======
 # Vehicle Carbon Calculator 🚗🌱
 
 A fun, interactive, and easy-to-use Flutter app to calculate and track your vehicle's carbon footprint. 
@@ -25,7 +22,7 @@ A fun, interactive, and easy-to-use Flutter app to calculate and track your vehi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/carbon_calculator.git
+   git clone https://github.com/theaashaychahande/carbon_calculator.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -59,4 +56,3 @@ Formula: `(Distance / Efficiency) * Emission Factor`
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
->>>>>>> ed0ec7d (added readme)
