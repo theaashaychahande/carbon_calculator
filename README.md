@@ -10,7 +10,7 @@ A fun, interactive, and easy-to-use Flutter app to calculate and track your vehi
 - **Modern UI**: Clean, intuitive design with smooth animations.
 - **Multi-Platform**: Designed to work flawlessly on both Android and iOS.
 
-## 📊 How It Works
+## How It Works
 
 The app calculates CO₂ emissions using standard emission factors for various fuel types:
 - **Gasoline**: ~2.31 kg CO₂ per liter
@@ -19,7 +19,7 @@ The app calculates CO₂ emissions using standard emission factors for various f
 
 Formula: `(Distance / Efficiency) * Emission Factor`
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [Flutter](https://flutter.dev)
 - **State Management**: [Provider](https://pub.dev/packages/provider)
