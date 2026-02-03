@@ -13,7 +13,8 @@
         "google_fonts",
         "intl",
         "provider",
-        "shared_preferences"
+        "shared_preferences",
+        "uuid"
       ],
       "devDependencies": [
         "flutter_lints",
@@ -489,6 +490,20 @@
         "meta",
         "path"
       ]
+    },
+    {
+      "name": "uuid",
+      "version": "4.5.2",
+      "dependencies": [
+        "crypto",
+        "fixnum",
+        "meta"
+      ]
+    },
+    {
+      "name": "fixnum",
+      "version": "1.1.1",
+      "dependencies": []
     }
   ],
   "configVersion": 1

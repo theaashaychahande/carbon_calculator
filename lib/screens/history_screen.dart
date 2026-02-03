@@ -150,7 +150,7 @@ class HistoryScreen extends StatelessWidget {
         leading: Container(
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: AppTheme.primaryGreen.withOpacity(0.1),
+            color: AppTheme.primaryGreen.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Icon(_getVehicleIcon(trip.vehicleType), color: AppTheme.primaryGreen),

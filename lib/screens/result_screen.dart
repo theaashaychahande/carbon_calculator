@@ -53,9 +53,9 @@ class ResultScreen extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(32),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: color.withOpacity(0.3), width: 2),
+        border: Border.all(color: color.withValues(alpha: 0.3), width: 2),
       ),
       child: Column(
         children: [
@@ -129,7 +129,7 @@ class ResultScreen extends StatelessWidget {
       ],
     );
   }
-
+// 
   Color _getImpactColor(String impact) {
     switch (impact) {
       case 'Low Impact': return AppTheme.lowEmissionColor;

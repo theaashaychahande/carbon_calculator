@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
 import '../models/trip.dart';
 import '../services/carbon_calculator.dart';
-import '../providers/trip_provider.dart';
+
 import '../theme/app_theme.dart';
 import 'result_screen.dart';
 import 'history_screen.dart';
@@ -146,7 +145,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: isSelected ? AppTheme.primaryGreen : Colors.grey[300]!,
                   ),
                   boxShadow: isSelected 
-                    ? [BoxShadow(color: AppTheme.primaryGreen.withOpacity(0.3), blurRadius: 8, offset: const Offset(0, 4))]
+                    ? [BoxShadow(color: AppTheme.primaryGreen.withValues(alpha: 0.3), blurRadius: 8, offset: const Offset(0, 4))]
                     : [],
                 ),
                 child: Column(
@@ -181,7 +180,7 @@ class _HomeScreenState extends State<HomeScreen> {
         const Text('Fuel Type', style: TextStyle(fontWeight: FontWeight.bold)),
         const SizedBox(height: 12),
         DropdownButtonFormField<FuelType>(
-          value: _selectedFuel,
+          initialValue: _selectedFuel,
           decoration: InputDecoration(
             filled: true,
             fillColor: Colors.white,
