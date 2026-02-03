@@ -20,7 +20,6 @@ class AppTheme {
         primary: primaryGreen,
         secondary: accentBlue,
         surface: Colors.white,
-        background: const Color(0xFFF5F7FA),
       ),
       textTheme: GoogleFonts.outfitTextTheme(),
       appBarTheme: AppBarTheme(
@@ -64,7 +63,6 @@ class AppTheme {
         primary: primaryGreen,
         secondary: accentBlue,
         surface: const Color(0xFF1E242C),
-        background: darkNavy,
       ),
       textTheme: GoogleFonts.outfitTextTheme(ThemeData.dark().textTheme),
       appBarTheme: AppBarTheme(
