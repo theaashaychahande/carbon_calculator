@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
         efficiency: efficiency,
         distance: distance,
       );
-
+ //
       final trip = Trip(
         id: const Uuid().v4(),
         vehicleType: _selectedVehicle,
